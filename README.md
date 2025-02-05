@@ -4,7 +4,7 @@
 
 VortexPointDynamics is a Python simulation tool for modelling vortex point dynamics in a circular domain based on Hamiltonian mechanics. The code aims to offer insights into complex vortex interactions using various techniques.
 
-# Features
+## Features
 
 - Simulation of N-vortex motion using numerical intergration.
 - Visualisation of vortex trajectories and Poincaré sections.
@@ -13,7 +13,7 @@ VortexPointDynamics is a Python simulation tool for modelling vortex point dynam
 - includes options for initial conditions (including whether or not the vortices are placed randomly) and numerical methods (e.g. RK4 or Euler).
 - Allows toggling if features such as trajectory plotting, generating Poincaré sections, and calculating Lyapunov Exponents.
 
-# Installation
+## Installation
 
 Clone the repository and install the required dependencies:
 
@@ -23,7 +23,7 @@ cd VortexPointDynamics
 pip install -r requirements.txt
 ```
 
-# Initial Conditions and Example Plots
+## Initial Conditions and Example Plots
 
 below are some of the inital conditions which produced results I found interesting:
 
@@ -43,13 +43,13 @@ plot:
 
 B) conditions:
 
-R = 1
-dt = 0.00001
-total_time = 8
+R = 1  
+dt = 0.00001  
+total_time = 8  
 
-random_init = False
-position_init = [(0.34, -0.34), (-0.24, 0.51)]
-circulations = [5.0, -5.0]
+random_init = False  
+position_init = [(0.34, -0.34), (-0.24, 0.51)]  
+circulations = [5.0, -5.0]  
 
 plot:
 
@@ -57,19 +57,19 @@ plot:
 
 C)
 
-R = 1
-dt = 0.00001
-total_time = 10
+R = 1  
+dt = 0.00001  
+total_time = 10  
 
-random_init = False
-position_init = [(0.07, -0.47), (-0.54, -0.5)]
-circulations = [5.0, 5.0]
+random_init = False  
+position_init = [(0.07, -0.47), (-0.54, -0.5)]  
+circulations = [5.0, 5.0]  
 
 plot:
 
 ![simulation 1](plot_3.png)
 
-# Technical Details
+## Technical Details
 
 - **Long Run Times for Detail:**
 
@@ -91,7 +91,7 @@ The Lyapunov Exponent is found by measuring the distance between two nearby traj
 
 I plan to improve the code in the near future in a number of ways including implementing parallel processing to reduce simulation time, refactoring the code to support module-based import for easier integration into other project, and implementing symplectic integrators to minimise energy drift in the Hamiltonian system and increase numerical accuracy in the simulations.
 
-# References
+## References
 
 - Reference paper:
 
