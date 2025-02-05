@@ -27,7 +27,7 @@ pip install -r requirements.txt
 
 below are some of the inital conditions which produced results I found interesting:
 
-A) conditions:
+A) **conditions:**
 
 R = 1  
 dt = 0.00001  
@@ -37,11 +37,11 @@ random_init = False
 position_init = [(-0.02, 0.62), (0.24, -0.69)]  
 circulations = [-5.0, -5.0]  
 
-plot:
+**plot:**
 
 ![simulation 1](plot_1.png)
 
-B) conditions:
+B) **conditions:**
 
 R = 1  
 dt = 0.00001  
@@ -51,11 +51,11 @@ random_init = False
 position_init = [(0.34, -0.34), (-0.24, 0.51)]  
 circulations = [5.0, -5.0]  
 
-plot:
+**plot:**
 
 ![simulation 1](plot_2.png)
 
-C)
+C) **conditions:**
 
 R = 1  
 dt = 0.00001  
@@ -65,7 +65,7 @@ random_init = False
 position_init = [(0.07, -0.47), (-0.54, -0.5)]  
 circulations = [5.0, 5.0]  
 
-plot:
+**plot:**
 
 ![simulation 1](plot_3.png)
 
