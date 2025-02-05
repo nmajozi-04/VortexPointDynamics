@@ -86,10 +86,12 @@ The Lyapunov Exponent is found by measuring the distance between two nearby traj
 
 - **Future Improvements:**
 
-I plan to improve the code in the near future in a number of ways including implementing parallel processing to reduce simulation time, refactoring the code to support module-based import for easier integration into other projects, and implementing symplectic integrators to minimise energy drift in the Hamiltonian system and increase numerical accuracy in the simulations.
+I plan to improve the code in the near future in a number of ways including implementing parallel processing to reduce simulation time, refactoring the code to support module-based import for easier integration into other projects, implementing symplectic integrators to minimise energy drift in the Hamiltonian system and increase numerical accuracy in the simulations, and a parameter that varies the Dirichlet boundary conditions (e.g. an option for the motion to be restricted to a half-plane, or a quadrant on the plane).
 
 ## References
 
 - Reference paper:
 
 Anderson V. Murray, Andrew J. Groszek, Pekko Kuopanportti, and Tapio Simula, "Hamiltonian dynamics of two same-sign point vortices," *Physical Review A*, **93**, 033649, 2016 [Link to journal page](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.93.033649)
+
+Paul K. Newton, *The N-Vortex Problem: Analytical Techniques*, Springer, 2001 [Link to book](https://link.springer.com/book/10.1007/978-1-4684-9290-3)
