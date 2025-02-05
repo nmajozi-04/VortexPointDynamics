@@ -29,13 +29,13 @@ below are some of the inital conditions which produced results I found interesti
 
 A) conditions:
 
-R = 1
-dt = 0.00001
-total_time = 7
+R = 1  
+dt = 0.00001  
+total_time = 7  
 
-random_init = False
-position_init = [(-0.02, 0.62), (0.24, -0.69)]
-circulations = [-5.0, -5.0]
+random_init = False  
+position_init = [(-0.02, 0.62), (0.24, -0.69)]  
+circulations = [-5.0, -5.0]  
 
 plot:
 
